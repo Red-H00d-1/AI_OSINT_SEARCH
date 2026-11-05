@@ -1,0 +1,33 @@
+# Minimum CVSS base score to alert on if not in CISA KEV or Exploit-DB
+min_cvss_score: 7.0
+
+# Number of hours to look back for newly discovered/updated vulnerabilities
+lookback_hours: 24
+
+# Tech stack watchlist (case-insensitive keyword matching)
+# CVEs affecting these technologies are automatically escalated to Tier 1
+watchlist:
+  - python
+  - docker
+  - kubernetes
+  - nginx
+  - react
+  - node
+  - linux
+  - postgres
+  - openssl
+  - redis
+  - golang
+  - aws
+  - azure
+  - gcp
+
+# Feeds to query
+feeds:
+  cisa_kev: true
+  nist_nvd: true
+  exploit_db: true
+
+# Notification settings
+email:
+  subject_prefix: "🛡️ [Threat Intel] Daily Vulnerability Brief"
