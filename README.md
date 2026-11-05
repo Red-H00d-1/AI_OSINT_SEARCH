@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/AI-Google%20Gemini%202.5%20Flash-orange?style=for-the-badge&logo=google&logoColor=white" alt="Gemini AI" />
   <img src="https://img.shields.io/badge/Automation-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/Cost-%240%20(100%25%20Free)-success?style=for-the-badge" alt="Zero Cost" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License MIT" />
+  <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge&logo=gnu" alt="License GPL-3.0" />
 </p>
 
 <p align="center">
@@ -205,4 +205,4 @@ email:
 
 ## 📄 License
 
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
+Distributed under the **GNU General Public License v3.0 (GPL-3.0)**. See [`LICENSE`](LICENSE) for more details.
